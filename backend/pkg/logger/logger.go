@@ -10,8 +10,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/qairlines/config"
 	"github.com/rs/zerolog"
-	"github.com/spaghetti-lover/qairlines/config"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 

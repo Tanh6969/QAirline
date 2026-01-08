@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/spaghetti-lover/qairlines/internal/domain/entities"
+	"github.com/qairlines/internal/domain/entities"
 )
 
 var (

@@ -3,7 +3,7 @@ package adapters
 import (
 	"context"
 
-	"github.com/spaghetti-lover/qairlines/internal/domain/entities"
+	"github.com/qairlines/internal/domain/entities"
 )
 
 type IUserRepository interface {

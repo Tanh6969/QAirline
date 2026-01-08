@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/spaghetti-lover/qairlines/pkg/utils"
+	"github.com/qairlines/pkg/utils"
 	"github.com/stretchr/testify/require"
 )
 
