@@ -13,8 +13,8 @@ import (
 	context "context"
 	reflect "reflect"
 
+	entities "github.com/qairlines/internal/domain/entities"
 	dto "github.com/qairlines/internal/infra/api/dto"
-	entities "github.com/spaghetti-lover/qairlines/internal/domain/entities"
 	gomock "go.uber.org/mock/gomock"
 )
 
