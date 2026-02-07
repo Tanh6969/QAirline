@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/spaghetti-lover/qairlines/internal/infra/api/handlers"
+	"github.com/qairlines/internal/infra/api/handlers"
 )
 
 func RegisterFlightRoutes(router *gin.RouterGroup, flightHandler *handlers.FlightHandler) {

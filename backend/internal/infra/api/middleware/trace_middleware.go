@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/spaghetti-lover/qairlines/pkg/logger"
+	"github.com/qairlines/pkg/logger"
 )
 
 func TraceMiddleware() gin.HandlerFunc {

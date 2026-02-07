@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/qairlines/internal/domain/adapters"
-	"github.com/qairlines/internal/domain/entities"
+	"github.com/internal/domain/adapters"
+	"github.com/internal/domain/entities"
 )
 
 type UpdateAdminInput struct {

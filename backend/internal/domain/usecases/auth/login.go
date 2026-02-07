@@ -4,13 +4,13 @@ import (
 	"context"
 	"log"
 
-	appErrors "github.com/spaghetti-lover/qairlines/pkg/errors"
+	appErrors "github.com/pkg/errors"
 
-	"github.com/spaghetti-lover/qairlines/config"
-	"github.com/spaghetti-lover/qairlines/internal/domain/adapters"
-	"github.com/spaghetti-lover/qairlines/internal/domain/entities"
-	"github.com/spaghetti-lover/qairlines/pkg/token"
-	"github.com/spaghetti-lover/qairlines/pkg/utils"
+	"github.com/config"
+	"github.com/internal/domain/adapters"
+	"github.com/internal/domain/entities"
+	"github.com/pkg/token"
+	"github.com/pkg/utils"
 )
 
 type LoginInput struct {

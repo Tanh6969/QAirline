@@ -6,16 +6,16 @@ import (
 
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
+	"github.com/qairlines/config"
+	db "github.com/qairlines/db/sqlc"
+	"github.com/qairlines/internal/infra/api/di"
+	"github.com/qairlines/internal/infra/api/middleware"
+	"github.com/qairlines/internal/infra/api/routes"
+	"github.com/qairlines/internal/infra/worker"
+	"github.com/qairlines/pkg/logger"
+	"github.com/qairlines/pkg/token"
 	"github.com/redis/go-redis/v9"
 	"github.com/rs/cors"
-	"github.com/spaghetti-lover/qairlines/config"
-	db "github.com/spaghetti-lover/qairlines/db/sqlc"
-	"github.com/spaghetti-lover/qairlines/internal/infra/api/di"
-	"github.com/spaghetti-lover/qairlines/internal/infra/api/middleware"
-	"github.com/spaghetti-lover/qairlines/internal/infra/api/routes"
-	"github.com/spaghetti-lover/qairlines/internal/infra/worker"
-	"github.com/spaghetti-lover/qairlines/pkg/logger"
-	"github.com/spaghetti-lover/qairlines/pkg/token"
 )
 
 type Server struct {

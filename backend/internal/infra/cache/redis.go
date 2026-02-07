@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"time"
 
+	"github.com/qairlines/internal/domain/adapters"
 	"github.com/redis/go-redis/v9"
-	"github.com/spaghetti-lover/qairlines/internal/domain/adapters"
 )
 
 type RedisCacheService struct {

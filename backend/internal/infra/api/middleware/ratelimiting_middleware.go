@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/qairlines/config"
 	"github.com/rs/zerolog"
-	"github.com/spaghetti-lover/qairlines/config"
 	"golang.org/x/time/rate"
 )
 

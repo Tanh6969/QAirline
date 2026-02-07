@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/spaghetti-lover/qairlines/pkg/token"
+	"github.com/qairlines/pkg/token"
 )
 
 // Define the key used to store the authorization payload in the request context

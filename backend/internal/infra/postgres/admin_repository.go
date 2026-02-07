@@ -10,9 +10,9 @@ import (
 	"strings"
 
 	"github.com/jackc/pgx/v5/pgtype"
-	db "github.com/spaghetti-lover/qairlines/db/sqlc"
-	"github.com/spaghetti-lover/qairlines/internal/domain/entities"
-	"github.com/spaghetti-lover/qairlines/pkg/token"
+	db "github.com/qairlines/db/sqlc"
+	"github.com/qairlines/internal/domain/entities"
+	"github.com/qairlines/pkg/token"
 )
 
 type AdminRepositoryPostgres struct {

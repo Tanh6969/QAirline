@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/qairlines/pkg/logger"
 	"github.com/rs/zerolog"
-	"github.com/spaghetti-lover/qairlines/pkg/logger"
 )
 
 type CustomResponseWriter struct {

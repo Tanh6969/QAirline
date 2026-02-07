@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	usecases "github.com/spaghetti-lover/qairlines/internal/domain/usecases/user"
-	"github.com/spaghetti-lover/qairlines/internal/infra/api/mappers"
+	usecases "github.com/qairlines/internal/domain/usecases/user"
+	"github.com/qairlines/internal/infra/api/mappers"
 )
 
 type UserHandler struct {

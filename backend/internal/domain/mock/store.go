@@ -13,7 +13,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	db "github.com/qairlines/db/sqlc"
+	db "github.com/db/sqlc"
 	gomock "go.uber.org/mock/gomock"
 )
 

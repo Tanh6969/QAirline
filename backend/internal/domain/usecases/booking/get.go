@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/spaghetti-lover/qairlines/internal/domain/adapters"
-	"github.com/spaghetti-lover/qairlines/internal/domain/entities"
+	"github.com/internal/domain/adapters"
+	"github.com/internal/domain/entities"
 )
 
 type IGetBookingUseCase interface {

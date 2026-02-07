@@ -5,9 +5,9 @@ import (
 	"strconv"
 
 	"github.com/jackc/pgx/v5/pgtype"
-	db "github.com/spaghetti-lover/qairlines/db/sqlc"
-	"github.com/spaghetti-lover/qairlines/internal/domain/adapters"
-	"github.com/spaghetti-lover/qairlines/internal/domain/entities"
+	db "github.com/qairlines/db/sqlc"
+	"github.com/qairlines/internal/domain/adapters"
+	"github.com/qairlines/internal/domain/entities"
 )
 
 type BookingRepositoryPostgres struct {

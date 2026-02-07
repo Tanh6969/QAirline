@@ -3,7 +3,7 @@ package admin
 import (
 	"context"
 
-	"github.com/qairlines/internal/domain/adapters"
+	"github.com/internal/domain/adapters"
 )
 
 type IDeleteAdminUseCase interface {

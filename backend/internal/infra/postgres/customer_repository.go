@@ -7,11 +7,11 @@ import (
 	"strconv"
 
 	"github.com/jackc/pgx/v5/pgtype"
-	db "github.com/spaghetti-lover/qairlines/db/sqlc"
-	"github.com/spaghetti-lover/qairlines/internal/domain/adapters"
-	"github.com/spaghetti-lover/qairlines/internal/domain/entities"
-	"github.com/spaghetti-lover/qairlines/pkg/token"
-	"github.com/spaghetti-lover/qairlines/pkg/utils"
+	db "github.com/qairlines/db/sqlc"
+	"github.com/qairlines/internal/domain/adapters"
+	"github.com/qairlines/internal/domain/entities"
+	"github.com/qairlines/pkg/token"
+	"github.com/qairlines/pkg/utils"
 )
 
 type CustomerRepositoryPostgres struct {

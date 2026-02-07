@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/spaghetti-lover/qairlines/internal/domain/adapters"
-	"github.com/spaghetti-lover/qairlines/pkg/utils"
+	"github.com/internal/domain/adapters"
+	"github.com/pkg/utils"
 )
 
 // Define errors

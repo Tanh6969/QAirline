@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"time"
 
-	db "github.com/spaghetti-lover/qairlines/db/sqlc"
-	"github.com/spaghetti-lover/qairlines/internal/domain/entities"
-	"github.com/spaghetti-lover/qairlines/internal/infra/api/dto"
+	db "github.com/qairlines/db/sqlc"
+	"github.com/qairlines/internal/domain/entities"
+	"github.com/qairlines/internal/infra/api/dto"
 )
 
 func ToCreateBookingParams(request dto.CreateBookingRequest, departureFlight entities.Flight, returnFlight *entities.Flight, email string) entities.CreateBookingParams {

@@ -6,10 +6,10 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/spaghetti-lover/qairlines/internal/domain/adapters"
-	"github.com/spaghetti-lover/qairlines/internal/domain/usecases/ticket"
-	"github.com/spaghetti-lover/qairlines/internal/infra/api/dto"
-	"github.com/spaghetti-lover/qairlines/internal/infra/api/mappers"
+	"github.com/qairlines/internal/domain/adapters"
+	"github.com/qairlines/internal/domain/usecases/ticket"
+	"github.com/qairlines/internal/infra/api/dto"
+	"github.com/qairlines/internal/infra/api/mappers"
 )
 
 type TicketHandler struct {

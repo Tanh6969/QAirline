@@ -3,8 +3,8 @@ package admin
 import (
 	"context"
 
-	"github.com/qairlines/internal/domain/adapters"
-	"github.com/qairlines/internal/domain/entities"
+	"github.com/internal/domain/adapters"
+	"github.com/internal/domain/entities"
 )
 
 type IGetCurrentAdminUseCase interface {

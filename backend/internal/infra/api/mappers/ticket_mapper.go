@@ -1,8 +1,8 @@
 package mappers
 
 import (
-	"github.com/spaghetti-lover/qairlines/internal/domain/entities"
-	"github.com/spaghetti-lover/qairlines/internal/infra/api/dto"
+	"github.com/qairlines/internal/domain/entities"
+	"github.com/qairlines/internal/infra/api/dto"
 )
 
 func ToGetTicketsByFlightIDResponse(tickets []entities.Ticket) []dto.GetTicketByFlightIDResponse {
