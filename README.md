@@ -64,8 +64,8 @@ QAirline is an online flight booking platform that helps users easily search, co
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![Golang][Go]][Go-url]
-* [![Postgres][PostgreSQL]][PostgreSQL-url]
-* [![Stripe][Stripe]][Stripe-url]
-* [![Redis][Redis]][Redis-url]
+* [Next.js]
+* [Golang]
+* [PostgreSQL]
+* [Stripe]
+* [Redis]
